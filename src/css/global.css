@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url(formulario.css);
+@import url(sectionMain.css);
+@import url(header.css);
+
+/* 1. Faz com que o cálculo de tamanho das caixas seja mais intuitivo. */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove a margem padrão de todos os elementos. */
+* {
+  margin: 0;
+}
+
+/* 3. Permite que elementos como `html` e `body` ocupem toda a altura da tela. */
+html, body {
+  height: 100%;
+}
+
+/* 4. Define padrões de fonte e suavização de texto para o corpo. */
+body {
+  line-height: 1.5; /* Melhora a legibilidade */
+  -webkit-font-smoothing: antialiased;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+}
+
+/* 5. Garante que imagens e outros elementos de mídia não ultrapassem seu contêiner. */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Remove estilos de fonte herdados para formulários. */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* 7. Evita quebras de texto estranhas. */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}

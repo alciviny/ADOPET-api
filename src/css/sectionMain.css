@@ -1,0 +1,67 @@
+.conteudo-todo{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.conteudo-interno ul{
+    gap: 30px;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.conteudo-animal{
+   /*  border: solid green 1px; */
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.conteudo-animal div h1{
+   /*  border: 1px solid red; */
+    color: black;
+    font-size: 32.5px;
+    font-weight: 700;
+    width: 80px;
+    height: 37px;
+}
+.conteudo-animal div p{
+   /*  border: 1px solid red; */
+    font-weight: 400;
+    font-size: 19.9px;
+    line-height: 1;
+}
+.conteudo-animal div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px 20px;
+    
+}
+   
+button{
+    color: white;
+    background: #FD6457;
+    border: none;
+    width: 227px;
+    height: 63px;
+    border-radius: 12px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 22.6px;
+    line-height: 1;
+}
+
+.adoçao-animais{
+    display: flex;
+    color: black;
+    width: 460px;
+    height: 61px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 48.3px;
+    line-height: 1;
+}
+
+button:hover{
+    color: red;
+}

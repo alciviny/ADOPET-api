@@ -1,0 +1,46 @@
+{
+  "pets": [
+    {
+      "id": 1,
+      "nome": "Max",
+      "descricao": "Um golden retriever amigável e brincalhão, que adora longas caminhadas no parque e buscar bolinhas. É muito leal e ótimo com crianças.",
+      "idade": 3,
+      "url_imagem": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 2,
+      "nome": "Luna",
+      "descricao": "Uma gata siamesa muito elegante e tranquila. Gosta de passar o dia tirando sonecas ao sol e é muito carinhosa com seus donos.",
+      "idade": 5,
+      "url_imagem": "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 3,
+      "nome": "Rocky",
+      "descricao": "Um bulldog francês teimoso, mas com um coração enorme. Seus roncos são famosos pela casa toda e ele adora um bom petisco.",
+      "idade": 4,
+      "url_imagem": "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 4,
+      "nome": "Bella",
+      "descricao": "Uma poodle muito inteligente e ativa. Adora aprender truques novos e se destaca em competições de agilidade.",
+      "idade": 2,
+      "url_imagem": "https://images.pexels.com/photos/1390361/pexels-photo-1390361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 5,
+      "nome": "Thor",
+      "descricao": "Um pastor alemão corajoso e protetor. É um excelente cão de guarda, mas também um companheiro muito dócil para a família.",
+      "idade": 6,
+      "url_imagem": "https://images.pexels.com/photos/2023384/pexels-photo-2023384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 6,
+      "nome": "Mimi",
+      "descricao": "Uma gata persa de pelos longos e exuberantes. Requer cuidados com a pelagem, mas compensa com seu temperamento calmo e afetuoso.",
+      "idade": 7,
+      "url_imagem": "https://images.pexels.com/photos/774731/pexels-photo-774731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+  ]
+}
