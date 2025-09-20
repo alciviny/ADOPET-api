@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../src/css/global.css">
+    <link rel="stylesheet" href="css/global.css">
+    <script src="js/main.js" type="module" defer></script>
 </head>
 <body>
     <header>
@@ -23,37 +24,41 @@
         <section class="conteudo-todo"><p class="adoçao-animais">Adoção de Animais</p>
             <section class="conteudo-interno">
             
-                <ul>
+                <ul data-lista="data-lista" class="lista-animal">
                     <li class="conteudo-animal">
                         <img src="../src/img/Bidu.png" alt="">
-                        <div>
+                        <div class="conteudo-animal-texto">
                             <h1>Bidu</h1>
                             <p>Idade: 2 anos</p>
                             <p>Cachorro brincalhao e amigavel</p>
-                            <button><h3>Quero Adotar</h3></button>
-                        </div>
+                            
+                        </div> 
+                        <div class="botao"> <button><h3>Quero Adotar</h3></button></div>
                     </li>
 
 
                     <li class="conteudo-animal">
                         <img src="../src/img/whisky.png" alt="">
-                        <div>
+                        <div class="conteudo-animal-texto">
                             <h1>Mimi</h1>
                             <p>idade: 1 ano</p>
                             <p>Gatinha carinhosa e calma</p>
-                            <button><h3>Quero Adotar</h3></button>
+                              
                         </div>
+                        <div class="botao"> <button><h3>Quero Adotar</h3></button></div>
                     </li>
 
 
                     <li class="conteudo-animal">
                         <img src="../src/img/thor.png" alt="">
-                        <div>
+                        <div class="conteudo-animal-texto">
                             <h1>Thor</h1>
                             <p>Idade: 3 anos</p>
                             <p>Cachorro cheio de energia</p>
-                            <button><h3>Quero Adotar</h3></button>
+                            
+                           
                         </div>
+                        <div class="botao"> <button><h3>Quero Adotar</h3></button></div>
                     </li>
                 </ul>
             </section>
@@ -65,7 +70,7 @@
         </section>
         <section class="formulario-animal">
         <form action="" class="formulario">
-            <span class="titulo"">adicionar pets ao sistema</span>
+            <span class="titulo">adicionar pets ao sistema</span>
             <label for="" class=""></label>
             <input type="text" placeholder="Nome">
 

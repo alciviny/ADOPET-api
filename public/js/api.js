@@ -1,8 +1,5 @@
-    export const api ={
+    const api ={
 
-
-        //essa primeira funçao mostra os dados que ja existem, ele pede o local de onde vem os dados e trata a possibilidade nao existir esses dados
-        //é uma funcao de leitura. ele ler os dados
         async GetPets(){
             try{
                 const response = await fetch (`http://localhost:3000/pets`)
@@ -18,10 +15,6 @@
             };
         },
 
-
-        //esse metodo é de postar, ele adiciona um novo pet no servidor, enquanto o outro metodo apenas ler, esse busca igualmente, por isso a necessidade de adicionar o metodo
-        //que desejo trabalhar nele, adiciono uma const semelhante ao get, porem adiciono um novo argumento falando que quero postar e o formato do novo dado, modifico ele
-        //com JSON.stringify()
         async adicionaPet(pets){
             try{
                 const response = await fetch (`http://localhost:3000/pets`,{
@@ -43,8 +36,7 @@
                 alert("nao foi possivel adicionar o pet no servidor,verifique possiveis erros")
             }
         } ,
-    //esse metodo substitui o o dado atual, ele precisa de dois argumentos, o id do dado que queremos trocar, e o novo dado que vamos modificar
-    //o metodo put, assim como todos, tbm precisa de uma requisicao pra buscar os dados e assim escolher o metodo a ser utilizado, no nosso caso, metodo PUT
+    
         async atualizaPet(id,novopet){
             try{
                 const response = await fetch(`http://localhost:3000/pets/${id}`,{
@@ -82,8 +74,6 @@
             }
         }
     
-    
-    
-    
-    
     }
+
+    export default api
