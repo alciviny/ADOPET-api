@@ -1,4 +1,6 @@
-    const api ={
+   //api é a parte que eu crio as funcionalidades do crud
+   
+   const api ={
 
         async GetPets(){
             try{

@@ -24,8 +24,8 @@
         <section class="conteudo-todo"><p class="adoçao-animais">Adoção de Animais</p>
             <section class="conteudo-interno">
             
-                <ul data-lista="data-lista" class="lista-animal">
-                    <li class="conteudo-animal">
+                <ul data-lista class="lista-animal">
+                   <!--  <li class="conteudo-animal">
                         <img src="../src/img/Bidu.png" alt="">
                         <div class="conteudo-animal-texto">
                             <h1>Bidu</h1>
@@ -59,7 +59,7 @@
                            
                         </div>
                         <div class="botao"> <button><h3>Quero Adotar</h3></button></div>
-                    </li>
+                    </li> -->
                 </ul>
             </section>
         </section>
@@ -67,24 +67,24 @@
 
       =
         <section class="formulario-animal">
-        <form action="" class="formulario">
+        <form action="" class="formulario" data-formulario>
             <span class="titulo">adicionar pets ao sistema</span>
             <label for="" class=""></label>
-            <input type="text" placeholder="Nome">
+            <input type="text" placeholder="Nome" data-nome required>
 
             <label for=""></label>
-            <input type="text" placeholder="url da imagem">
+            <input type="text" placeholder="url da imagem" data-url required>
 
 
             <label for=""></label>
-            <input type="text" placeholder="idade">
+            <input type="text" placeholder="idade" data-idade required>
 
             <label for=""></label>
-            <input type="text" placeholder="Raça">
+            <input type="text" placeholder="Raça" data-raca required>
 
             <label for=""></label>
-            <input type="text" placeholder="descriçao">
-            <button>Enviar</button>
+            <input type="text" placeholder="descriçao" data-descricao required>
+            <button type="submit">Enviar</button>
         </form>
         </section>
     </main>
