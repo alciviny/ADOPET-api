@@ -12,9 +12,13 @@
     align-items: flex-start;
 }
 /* li------------------------------------- */
+.lista-animal{
+    display: flex;
+    flex-wrap: wrap;
+}
 .conteudo-animal{
 
-    border: solid green 1px;
+   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,18 +29,18 @@
     
    
 }
-.conteudo-animal img{
+.conteudo-animal > img:first-child{
     width: 350px;
     height: 350px;
     border-radius: 12px 12px 0px 0px;
     object-fit: cover;
 }
 .lista-animal div h1{
-   /*  border: 1px solid red; */
+   
     /* color: black; */
     font-size: 32.5px;
     font-weight: 700;
-    width: 80px;
+    width: 100%;
     height: 37px;
 }
 .lista-animal div p{
@@ -64,7 +68,7 @@ button{
     font-weight: 600;
     font-size: 22.6px;
     line-height: 1;
-    align-self: center;
+    /* align-self: center; */
 }
 
 .adoçao-animais{
@@ -86,10 +90,49 @@ button{
     flex-grow: 1;
     width: 100%;
     height: auto;
-    border: solid blue 1px;
+    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     
+}
+.botao{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px; /* Adjust as needed */
+}
+.botao .excluir{
+    width: 100%;
+    display: flex;
+    
+    width: 100%;
+    height: auto;
+}
+.excluir img{
+    width: 10px;
+    height: 10px;
+}
+
+li.conteudo-animal .icones{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 100%;
+   flex-direction: row;
+}
+
+.icon{
+    
+    width: 24px; 
+    height: 24px;
+    cursor: pointer;
+  
+}
+.icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
