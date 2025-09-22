@@ -13,6 +13,18 @@ import api  from "./api.js";
            
         </div> 
         <div class="botao"> <button><h3>Quero Adotar</h3></button></div>
+        <div class="icones">
+        <div class="icon">
+        <img src="img/editar.png" alt="Editar" data-editar="editar"></div>
+
+         <div class="icon">
+          <img src="img/excluir.png" alt="Excluir"  data-excluir="excluir">
+          </div>
+            
+           
+        </div>
+        
+        
     </li>`;
 
     return card 
@@ -37,4 +49,4 @@ async function renderizarPet(){
 
 
 
-export {renderizarPet}
+export {renderizarPet,cardPet}
